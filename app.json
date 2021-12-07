@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "crypto-app",
+    "slug": "crypto-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "crypto-app"
+}
