@@ -36,13 +36,13 @@ const getAmountColor = amt => {
 }
 
 const Expenses = () => {
-    const { colors, isDark } = useTheme()
+    const { colors } = useTheme()
 
     return (
         <View >
             <View style={[styles.center, { transform: [{ translateY: - 40 }] }]}>
                 <TouchableOpacity>
-                    <View style={[styles.visibilityCircle, styles.center]} >
+                    <View style={[styles.visibilityCircle, styles.center, { shadowColor : colors.shadow }]} >
                         <FontAwesome name="chevron-down" size={24} color="#B2A6A9" />
                     </View>
                 </TouchableOpacity>
